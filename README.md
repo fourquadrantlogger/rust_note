@@ -8,3 +8,7 @@ http://rustbyexample.com/
 # 安装
 
 curl -sSf https://static.rust-lang.org/rustup.sh | sh
+
+# 下载源码src
+
+https://github.com/rust-lang/rust
