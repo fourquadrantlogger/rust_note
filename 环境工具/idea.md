@@ -55,7 +55,7 @@ CargoFmt  |		cargo fmt	|	/usr/local/bin/cargo	|	fmt	\$ProjectFileDir\$
 如果你使用的是Sh***Socks，可以使用 proxychains ，以使得 Sh***Socks可以支持终端使用。为了使用 proxychains ,我们可以将我们的自定义命令做如下变更。
 
 Name	   |	Description   |		Program  |		Parameters   |		Working Directory
---------- | --------------- | ------------------------- | -------------------------
+--------- | --------------- | ------------------------- | --------- | -----------------
 Rustc   |	run with rustc   |		/usr/local/bin/rustc   |	\$FileName\$   |	\$FileDir\$
 CargoRun   |	cargo run   |	/usr/local/bin/proxychains4   |	/usr/local/bin/cargo | run   |	\$ProjectFileDir\$
 CargoBuild   |	cargo build	/usr/local/bin/proxychains4	/usr/local/bin/cargo | build	\$ProjectFileDir\$
