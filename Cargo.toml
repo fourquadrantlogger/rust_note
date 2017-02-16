@@ -7,4 +7,4 @@ authors = ["timeloveboy <734991033@qq.com>"]
 
 [[bin]]
 name = "test"
-path = "src/特色语法/std/fmt/trylist.rs"
+path = "src/特色语法/数据类型/computing.rs"
