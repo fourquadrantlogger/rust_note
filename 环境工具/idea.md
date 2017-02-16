@@ -58,7 +58,7 @@ Name	   |	Description   |		Program  |		Parameters   |Working Directory
 --------- | --------------- | ------------------------- | --------- | -----------------
 Rustc   |	run with rustc   |		/usr/local/bin/rustc   |	\$FileName\$   |	\$FileDir\$
 CargoRun   |	cargo run   |	/usr/local/bin/proxychains4   |	/usr/local/bin/cargo run   |	\$ProjectFileDir\$
-CargoBuild   |	cargo build	/usr/local/bin/proxychains4	/usr/local/bin/cargo build	\$ProjectFileDir\$
-CargoTest   |	cargo test	/usr/local/bin/cargo   |		test	   |	\$ProjectFileDir\$
-CargoFmt   |	cargo fmt	/usr/local/bin/cargo   |		fmt	   |	\$ProjectFileDir\$
+CargoBuild   |	cargo build |	/usr/local/bin/proxychains4	/usr/local/bin/cargo build	\$ProjectFileDir\$
+CargoTest   |	cargo test |	/usr/local/bin/cargo   |		test	   |	\$ProjectFileDir\$
+CargoFmt   |	cargo fmt |	/usr/local/bin/cargo   |		fmt	   |	\$ProjectFileDir\$
 
