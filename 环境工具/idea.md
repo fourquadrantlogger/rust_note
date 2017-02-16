@@ -26,11 +26,11 @@
 
 Name      |	Description     |		Program  |		Parameters  |		Working Directory
 --------- | --------------- | ------------------------- | -------------------------
-Rustc     |run with rustc	|	/usr/local/bin/rustc    |	\$FileName\$	\$FileDir\$
-CargoRun  |	cargo run	    |	/usr/local/bin/cargo	|	run	\$ProjectFileDir\$
-CargoBuild|		cargo build |		/usr/local/bin/cargo|		build	\$ProjectFileDir\$
-CargoTest |		cargo test  |  /usr/local/bin/cargo	test|		\$ProjectFileDir\$
-CargoFmt  |		cargo fmt	|	/usr/local/bin/cargo	|	fmt	\$ProjectFileDir\$
+Rustc     |run with rustc	|	/usr/local/bin/rustc    |	\$FileName\$ |	\$FileDir\$
+CargoRun  |	cargo run	    |	/usr/local/bin/cargo	|	run |	\$ProjectFileDir\$
+CargoBuild|		cargo build |		/usr/local/bin/cargo|		build |	\$ProjectFileDir\$
+CargoTest |		cargo test  |  /usr/local/bin/cargo  |	test|		\$ProjectFileDir\$
+CargoFmt  |		cargo fmt	|	/usr/local/bin/cargo	|	fmt	 | \$ProjectFileDir\$
  
 
 以下命令将会在Tools->External Tools 下面以列表的形式进行显示。 配置的更多参考可以阅读官方文档
